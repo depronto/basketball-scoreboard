@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.team-text {
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+}
+#home-score, #guest-score {
+    background-color: #080001;
+    width: 156px;
+    color: #F94F6D;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.score-btns-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; 
+}
+.score-btns-div button{
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    background-color: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+}
+.score-btns-div button{
+    cursor: pointer;
+}
+
+#score-number-home, #score-number-guest {
+    padding-top: 20px;
+}
+#new-game {
+    display: flex;
+    justify-content: center;
+}
+#new-game button {
+    background-color: green;
+    color: white;
+    margin: 50px 0;
+}
